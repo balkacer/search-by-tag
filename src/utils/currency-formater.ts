@@ -1,0 +1,1 @@
+export const currencyFormater = (value: number | string) => new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(+value);
